@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>class selector</title>
+    <style>
+        /* .클래스명 : selector */
+        /* 클래스는 분류해서 쓸때. 적절한 스타일을 사용가능 */
+
+        .memo{
+            background-color: yellowgreen;
+
+        }
+        .error{
+            background-color: wheat;
+            color: teal;
+        }
+        /* note 클래스 속성값을 가진 요소들의 color:white, bgcolor:blue */
+        .note{
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>class 선택자</h1>
+    <p>class attribute의 값으로 요소 선택</p>
+<!-- (h1>lorem3^p>lorem)*3 -->
+<h1 class="memo">Lorem, ipsum dolor.</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, impedit. Sed beatae deleniti harum inventore et repudiandae sunt ullam quasi vitae. Dolores dolorum cumque soluta veniam blanditiis a, quo magni!</p>
+<h1 class="error">Magnam, eos odit?</h1>
+<p class ="error">Aspernatur minima omnis, architecto quo dolore perferendis laboriosam cupiditate nihil necessitatibus similique ipsa laborum enim sunt cum accusantium inventore animi? Delectus inventore possimus nisi excepturi corrupti voluptatem nam nulla quisquam!</p>
+<h1 class="memo">Omnis, delectus vel.</h1>
+<p class="note">Ea harum voluptatem ipsum dolorem itaque perferendis animi impedit deleniti, dignissimos doloribus dicta consectetur expedita veniam est quas minus nostrum beatae temporibus nobis, autem dolor vel excepturi neque! Ratione, molestias!</p>
+</body>
+</html>
